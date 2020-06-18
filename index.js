@@ -268,7 +268,7 @@ module.exports = function(homebridge) {
 			if (this.deviceuuid !== 'undefined'){
 				this.getBlueAirSettings(function(){});
 				this.getBlueAirInfo(function(){});
-				this.getLatestValues(function(){});
+				// this.getLatestValues(function(){});
 			} else {
 				this.log.debug("No air purifiers found");
 			}
